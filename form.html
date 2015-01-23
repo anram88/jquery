@@ -1,0 +1,68 @@
+<html>
+<head>
+	<title>Formulario</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+<a href="index.html">Volver a index</a>
+<div id = "logo">
+<h1>Formulario</h1>
+</div>
+
+<div id = "principal">
+<form>
+	<fieldset>
+		<div id = "nombreInput">
+			Nombre: <input type="text" name="txt_nombre" id="txt_nombre"/> 
+		</div>
+		
+		<div id = "emailInput">
+			Email: <input type="text" name="txt_email" id="txt_email"/> 
+		</div>
+	</fieldset>
+	
+	<fieldset>
+		<div id = "categoria">
+			Categor&iacute;a:
+			<select name="lis_cat" id="lis_cat" multiple="multiple" size = "1">
+				<option>Op1</option>
+				<option>Op2</option>
+				<option>Op3</option>
+			</select>
+		</div>
+	</fieldset>
+	
+	<fieldset>
+	<div id = "enviarCorreoDiv">
+	Enviar al correo electr&oacute;nico: <input type="radio" name="radio_contenido"> 
+	</div>
+	
+	
+		Descripcion de categorias: <br/>
+		Incluir los siguientes detalles:<br/
+		<input type="checkbox" name="chk_detalle1" id="chk_detalle1"/>
+		Nombre del sitio: <input type="checkbox" name="chk_detalle2" id="chk_detalle2"/>
+		Fecha de visita: <input type="checkbox" name="chk_detalle3" id="chk_detalle3"/>
+	</fieldset>
+	<div id = "caracteristicasExhibidas">
+		Caracter&iacute;sticas exhibidas
+		<fieldset>
+			<legend>Recomendaci&oacute;n de sitio </legend>
+			Categor&iacute;a: <input type = "text" name = "txt_new" id="txt_new"/> <br/>
+			URL: <input type = "text" name = "txt_url" id="txt_url"/> <br/>>
+			Imagen: <input type = "file" name = "fil_screen" id="fil_screen"/> <br/>
+		</fieldset>
+	</div>
+	
+	
+</form>
+</div>
+<div id = "botonSubmit">
+		<input type = "submit" name = "btn_submit" id = "btn_submit" value = "Enviar"/>
+	</div>
+	
+
+</body>
+</html>			
+			
+			

@@ -1,0 +1,106 @@
+@font-face{
+font-family: myFont;
+src: url('Sacramento-Regular.ttf');
+
+}
+
+body{
+
+font-size:0.99em;
+font-family:myFont;
+
+background: -moz-linear-gradient(top,  rgba(122,122,122,0.65) 0%, rgba(122,122,122,0.64) 1%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(122,122,122,0.65)), color-stop(1%,rgba(122,122,122,0.64)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(122,122,122,0.65) 0%,rgba(122,122,122,0.64) 1%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(122,122,122,0.65) 0%,rgba(122,122,122,0.64) 1%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(122,122,122,0.65) 0%,rgba(122,122,122,0.64) 1%,rgba(0,0,0,0) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(122,122,122,0.65) 0%,rgba(122,122,122,0.64) 1%,rgba(0,0,0,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a67a7a7a', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+#principal{
+
+transition: width 2s;
+-moz-transition: width 2s; /* Firefox 4 */
+-webkit-transition: width 2s; /* Safari and Chrome */
+-o-transition: width 2s; /* Opera */
+
+box-shadow: 7px 7px 7px 7px #888888;
+
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+
+
+height: 30em;
+width: 69em;
+
+border-style: dashed;
+border-width: 0.4625em;
+border-color: gray;
+background-color: white;
+
+margin-top: 3.8 6em;
+margin-left: 10.5em;
+
+}
+
+#principal:hover
+{
+width:40%;
+}
+
+fieldset{
+border-style: solid;
+
+
+}
+
+input{
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+background: -moz-linear-gradient(top,  rgba(122,122,122,0.65) 0%, rgba(122,122,122,0.64) 1%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(122,122,122,0.65)), color-stop(1%,rgba(122,122,122,0.64)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(122,122,122,0.65) 0%,rgba(122,122,122,0.64) 1%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(122,122,122,0.65) 0%,rgba(122,122,122,0.64) 1%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(122,122,122,0.65) 0%,rgba(122,122,122,0.64) 1%,rgba(0,0,0,0) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(122,122,122,0.65) 0%,rgba(122,122,122,0.64) 1%,rgba(0,0,0,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a67a7a7a', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+
+}
+#logo{
+
+-webkit-border-top-left-radius: 6px;
+-webkit-border-top-right-radius: 6px;
+-moz-border-radius-topleft: 6px;
+-moz-border-radius-topright: 6px;
+border-top-left-radius: 6px;
+border-top-right-radius: 6px;
+
+margin-top: 1.4em;
+border-style: solid;
+border-width: 0.0625em;
+background-color: orange;
+
+}
+#nombreInput{}
+
+#emailInput{}
+
+#categoria{}
+
+#enviarCorreoDiv{}
+
+#caracteristicasExhibidas{}
+
+#botonSubmit{
+margin-top: 1.86em;
+margin-left: 75.5em;
+
+}
+#btn_submit{
+background: orange;
+}
